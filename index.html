@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scent Haven</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="header-inner-content ">
+            <h1 class="logo">BLUE <span>STORE</span></h1>
+            <nav>
+                <ul>
+                    <li>Perfumes</li>
+                    <li>Body Splash</li>
+                    <li>Cremes</li>
+                    <li>Skin Care</li>
+                    <li>Todos os produtos</li>
+                </ul>
+            </nav>
+            <div class="nav-icon-container">
+                <img src="/images/cart.png" >
+                <img src="/images/menu.png" class="menu-button">
+            </div>
+        </div>
+
+    </div>
+
+    <header>
+        <div class="header-inner-content">
+          <div class="header-bottom-side">
+            <div class="header-bottom-side-left">
+                <h2>A fragrância da elegancia</h2>
+                <p>Descubra nossa linha de produtos</p>
+                <button>Ver Agora</button>
+            </div>
+            <div class="header-bottom-side-right">
+                <img src="/images/perfume-banner.png" alt="">
+            </div>
+          </div>
+        </div>
+    </header>
+    <!-- Main Content -->
+     <main>
+        <div class="gray-background">
+            <div class="page-inner-content">
+                <div class="cols-cols-3">
+                    <img src="/images/um.png" alt="">
+                    <img src="/images/dois.png" alt="">
+                    <img src="/images/tres.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="page-inner-content">
+                <h3 class="section-title">Produtos Selecionados</h3>
+                <div class="subtitle-underline"></div>
+                <div class="cols-cols-4">
+                    <div class="product">
+                        <img src="images/perfume1.png" alt="">
+                        <p class="product-name"></p>
+                        <p class="product-price">2,000.00 <span>Reais</span></p>
+                    </div>
+                    <div class="product">
+                        <img src="images/perfume2.png" alt="">
+                        <p class="product-name"></p>
+                        <p class="product-price">3,000.00 <span>Reais</span></p>
+                    </div>
+                    <div class="product">
+                        <img src="images/perfume3.png" alt="">
+                        <p class="product-name"></p>
+                        <p class="product-price">4,000.00 <span>Reais</span></p>
+                    </div>
+                    <div class="product">
+                        <img src="images/perfume4.png" alt="">
+                        <p class="product-name"></p>
+                        <p class="product-price">5,000.00 <span>Reais</span></p>
+                    </div>
+
+                </div>
+                <div class="page-inner-content">
+                    <h3 class="section-title">Últimos produtos</h3>
+                    <div class="subtitle-underline"></div>
+                    <div class="cols-cols-4">
+                        <div class="product">
+                            <img src="images/perfume1.png" alt="">
+                            <p class="product-name"></p>
+                            <p class="product-price">2,000.00 <span>Reais</span></p>
+                        </div>
+                        <div class="product">
+                            <img src="images/perfume2.png" alt="">
+                            <p class="product-name"></p>
+                            <p class="product-price">3,000.00 <span>Reais</span></p>
+                        </div>
+                        <div class="product">
+                            <img src="images/perfume3.png" alt="">
+                            <p class="product-name"></p>
+                            <p class="product-price">4,000.00 <span>Reais</span></p>
+                        </div>
+                        <div class="product">
+                            <img src="images/perfume4.png" alt="">
+                            <p class="product-name"></p>
+                            <p class="product-price">5,000.00 <span>Reais</span></p>
+                        </div>
+    
+                    </div>
+                    <div class="cols-cols-4">
+                        <div class="product">
+                            <img src="images/perfume1.png" alt="">
+                            <p class="product-name"></p>
+                            <p class="product-price">2,000.00 <span>Reais</span></p>
+                        </div>
+                        <div class="product">
+                            <img src="images/perfume2.png" alt="">
+                            <p class="product-name"></p>
+                            <p class="product-price">3,000.00 <span>Reais</span></p>
+                        </div>
+                        <div class="product">
+                            <img src="images/perfume3.png" alt="">
+                            <p class="product-name"></p>
+                            <p class="product-price">4,000.00 <span>Reais</span></p>
+                        </div>
+                        <div class="product">
+                            <img src="images/perfume4.png" alt="">
+                            <p class="product-name"></p>
+                            <p class="product-price">5,000.00 <span>Reais</span></p>
+                        </div>
+    
+                    </div>
+    
+
+
+            </div>
+        </div>
+
+        <div class="gray-background">
+            <div class="header-inner-content">
+                <div class="header-bottom-side exclusive-container">
+                  <div class="header-bottom-side-left">
+                      <h2>A fragrância da elegancia</h2>
+                      <p>Descubra nossa linha de produtos</p>
+                      <button>Ver Agora</button>
+                  </div>
+                  <div class="header-bottom-side-right">
+                      <img src="/images/exclusive.png" alt="">
+                  </div>
+                </div>
+              </div>
+        </div>
+     </main>
+
+    <script>
+        const navBar = document.querySelector('.navbar');
+        const menuButton = document.querySelector('.menu-button');
+
+        menuButton.addEventListener('click', () => {
+            navBar.classList.toggle('show-menu');
+        });
+
+    </script>
+</body>
+</html>
